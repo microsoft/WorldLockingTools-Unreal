@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "World Locking Tools",
+	"Description": "",
+	"Category": "Mixed Reality",
+	"CreatedBy": "Microsoft",
+	"CreatedByURL": "",
+	"DocsURL": "https://docs.microsoft.com/en-us/mixed-reality/world-locking-tools/",
+	"SupportURL": "https://docs.microsoft.com/en-us/mixed-reality/world-locking-tools/",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"HoloLens"
+	],
+	"Modules": [
+		{
+			"Name": "WorldLockingTools",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	]
+}
