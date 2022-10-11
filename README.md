@@ -1,7 +1,7 @@
 # What is World Locking Tools
-World Locking Tools for provides a stable and reliable world-locked coordinate system, binding the virtual/holographic world to the physical world.
+World Locking Tools provides a stable and reliable world-locked coordinate system, binding the virtual/holographic world to the physical world.
 
-World Locking Tools locks the entire holograph space of your application to the physical world. A hologram put in position relative to physical world features will stay fixed relative to those features, and remain fixed relative to other holograms.
+World Locking Tools locks the holographic space of your application to the physical world. A hologram put in position relative to physical world features will stay fixed relative to those features, and remain fixed relative to other holograms.
 
 World Locking Tools also includes Space Pins, which reposition the scene to match real-world features like QRCodes.
 
