@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.1",
+	"VersionName": "1.0.2",
 	"FriendlyName": "World Locking Tools",
 	"Description": "World Locking Tools provides a stable and reliable world-locked coordinate system, binding the virtual/holographic world to the physical world.",
 	"Category": "Mixed Reality",

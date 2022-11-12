@@ -121,6 +121,9 @@ namespace WorldLockingTools
 				fragment->AddAttachmentPoint(target);
 			}
 
+			// Update space pins now that a valid fragment exists.
+			FAlignmentManager::OnAlignmentManagerLoad.Broadcast();
+
 			// All pending must now be in a good home fragment, clear the to-do list.
 			pendingAttachments.Empty();
 		}
