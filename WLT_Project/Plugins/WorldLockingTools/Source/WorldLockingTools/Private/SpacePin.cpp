@@ -271,6 +271,7 @@ void USpacePin::RestoreOnLoad()
 				This->LockedPose = restorePose;
 			}
 			This->CheckAttachment();
+			This->SendAlignmentData();
 		}
 	});
 }
