@@ -10,7 +10,7 @@
 	"DocsURL": "https://docs.microsoft.com/en-us/mixed-reality/world-locking-tools/",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/64f59ec4fca34211a10d5b3ca8159480",
 	"SupportURL": "https://github.com/microsoft/WorldLockingTools-Unreal",
-	"EngineVersion": "5.0.0",
+	"EngineVersion": "5.1.0",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,

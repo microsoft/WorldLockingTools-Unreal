@@ -55,10 +55,8 @@ public class WorldLockingTools : ModuleRules
 
 			// run nuget to update the packages
 			{
-				var StartInfo = new System.Diagnostics.ProcessStartInfo(NugetExe, string.Format("install \"{0}\" -OutputDirectory \"{1}\"", Path.Combine(ModuleDirectory, "packages.config"), NugetFolder));
-				StartInfo.UseShellExecute = false;
-				StartInfo.CreateNoWindow = true;
-				var ExitCode = Utils.RunLocalProcessAndPrintfOutput(StartInfo);
+				int ExitCode = 0;
+				Utils.RunLocalProcessAndReturnStdOut(NugetExe, string.Format("install \"{0}\" -OutputDirectory \"{1}\"", Path.Combine(ModuleDirectory, "packages.config"), NugetFolder), out ExitCode, true);
 				if (ExitCode < 0)
 				{
 					throw new BuildException("Failed to get nuget packages.  See log for details.");
